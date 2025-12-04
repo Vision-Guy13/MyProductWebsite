@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Product website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- box icons -->
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="cover cover-left"></div>
+        <div class="cover cover-right turn"></div>
+
+        <div class="book">
+            <!-- profile page -->
+             <div class="book-page page-left">
+                <div class="profile-cover">
+
+                        <div class="profile-image">
+                            <img src="my image.jpg" alt="Profile Picture">
+                        </div>
+
+                        <div class="profile-page">
+                            <h1>Vision Guy</h1>
+                            <h3>Web Developer</h3>
+
+                            <div class="social-media">
+                                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                                <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                            </div>
+
+                            <p id="profile-page-description">
+                                Hi, I'm Vision Guy, a web Developer. Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Iste quaerat assumenda accusamus voluptates, in unde omnis corrupti
+                                autem ut obcaecati magnam!
+                            </p>
+
+                            <div class="btn-box">
+                                <a href="#" class="btn">Download CV</a>
+                                <a href="#" class="btn Contact-me">Contact Me</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+             
+            </div>
+            <!-- page 1 & 2 -->
+             <div class="book-page page-right turn" id="turn-1">
+                <!-- page 1 (work experience) -->
+                 <div class="page-front">
+                    <h1 class="title">Work Experience</h1>
+
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><ion-icon name="calendar-number-outline"></ion-icon>2022-2023</span>
+                            <h3>Web Developer - Company</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo eaque animi, id sunt cumque inventore optio sequi
+                                , sit neque itaque odio accusamus quas eum tenetur.</p>
+
+                        </div>
+                        <div class="workeduc-content">
+                            <span class="year"><ion-icon name="calendar-number-outline"></ion-icon>2023-2024</span>
+                            <h3>Web Developer - Company</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo eaque animi, id sunt cumque inventore optio sequi
+                                , sit neque itaque odio accusamus quas eum tenetur.</p>
+                                
+                        </div>
+                        <div class="workeduc-content">
+                            <span class="year"><ion-icon name="calendar-number-outline"></ion-icon>2024-2025</span>
+                            <h3>Web Developer - Company</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo eaque animi, id sunt cumque inventore optio sequi
+                                , sit neque itaque odio accusamus quas eum tenetur.</p>
+                                
+                        </div>
+                    </div>
+
+                    <span class="number-page">1</span>
+                    <!-- next button  -->
+                     <span class="nextprev-btn" data-page="turn-1">
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                     </span>
+                 </div>
+
+                 <!-- page 2 (education) -->
+                  <div class="page-back">
+                    <h1 class="title">Education</h1>
+
+                     <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><ion-icon name="calendar-number-outline"></ion-icon>2017-2018</span>
+                            <h3>Master Degree - University</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo eaque animi, id sunt cumque inventore optio sequi
+                                , sit neque itaque odio accusamus quas eum tenetur.</p>
+
+                        </div>
+                        <div class="workeduc-content">
+                            <span class="year"><ion-icon name="calendar-number-outline"></ion-icon>2018-2019</span>
+                            <h3>Master Degree - University</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo eaque animi, id sunt cumque inventore optio sequi
+                                , sit neque itaque odio accusamus quas eum tenetur.</p>
+                                
+                        </div>
+                        <div class="workeduc-content">
+                            <span class="year"><ion-icon name="calendar-number-outline"></ion-icon>2019-2020</span>
+                            <h3>master Degree - University</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo eaque animi, id sunt cumque inventore optio sequi
+                                , sit neque itaque odio accusamus quas eum tenetur.</p>
+                                
+                        </div>
+                    </div>
+
+                    <span class="number-page">2</span>
+
+                    <!-- prev button  -->
+                     <span class="nextprev-btn back" data-page="turn-1">
+                        <ion-icon name="chevron-back-outline"></ion-icon>
+                     </span>
+                  </div>
+             </div>
+
+              <!-- page 3 & 4 -->
+             <div class="book-page page-right turn" id="turn-2">
+                <!-- page 3 (my services) -->
+                 <div class="page-front">
+                    <h1 class="title">My services</h1>
+
+                    <div class="service-box">
+                        <div class="service-content">
+                            <ion-icon name="code-slash-outline"></ion-icon>
+                            <h3>Web Development</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+
+                        <div class="service-content">
+                            <ion-icon name="color-palette-outline"></ion-icon>
+                            <h3>Creative Design</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+
+                        <div class="service-content">
+                            <ion-icon name="bar-chart-outline"></ion-icon>
+                            <h3>Digital Marketing</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+
+                        <div class="service-content">
+                            <ion-icon name="search-outline"></ion-icon>
+                            <h3>SOE</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                        
+                    </div>
+
+                    <span class="number-page">3</span>
+                    <!-- next button  -->
+                     <span class="nextprev-btn" data-page="turn-2">
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                     </span>
+                 </div>
+                
+                <!-- page 4 (my skills) -->
+                 <div class="page-back">
+                    <h1 class="title">My skills</h1>
+
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <h3>Front-End</h3>
+                            <div class="content">
+                                <span><ion-icon name="logo-html5"></ion-icon>HTML</span>
+                                <span><ion-icon name="logo-css3"></ion-icon>CSS</span>
+                                <span><ion-icon name="logo-javascript"></ion-icon>JS</span>
+                                <span><ion-icon name="logo-angular"></ion-icon>Angular</span>
+                            </div>
+                        </div>
+
+                         <div class="skills-content">
+                            <h3>Back-End</h3>
+                            <div class="content">
+                                <span><ion-icon name="logo-python"></ion-icon>Python</span>
+                                <span><ion-icon name="logo-nodejs"></ion-icon>Node</span>
+                                
+                            </div>
+                        </div>
+
+                         <div class="skills-content">
+                            <h3>UI/UX Design</h3>
+                            <div class="content">
+                                <span><ion-icon name="logo-figma"></ion-icon>Figma</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <span class="number-page">4</span>
+
+                    <!-- prev button  -->
+                     <span class="nextprev-btn back" data-page="turn-2">
+                        <ion-icon name="chevron-back-outline"></ion-icon>
+                     </span>
+                 </div>
+             </div>
+
+              <!-- page 5 & 6 -->
+             <div class="book-page page-right turn" id="turn-3">
+                <!-- page 5 (latest project or my portfolio) -->
+                <div class="page-front">
+                    <h1 class="title">Latest Project</h1>
+
+                    <div class="portfolio-box">
+                        <div class="img-box">
+                             <img src="project.png" alt="My Project">
+                        </div>
+                       
+                        <div class="info-box">
+                            <div class="info-title">
+                                <h3>Project Name</h3>
+                                <a href="#">Cleaning Company<ion-icon name="link-outline"></ion-icon></a>
+                            </div>
+                            <p>Tech Used:</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur,
+                                illo ad! Dicta nisi similique atque? Corporis, enim! Nulla, rerum similique?</p>
+                        </div>
+
+                        <div class="btn-box">
+                            <a href="#" class="btn">Source Code</a>
+                            <a href="#" class="btn">More Project</a>
+                        </div>
+                    </div> 
+                    
+                    <span class="number-page">5</span>
+                    <!-- next button  -->
+                     <span class="nextprev-btn" data-page="turn-3">
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                     </span>
+                </div>
+                
+                
+                <!-- page 6 (Contact Me!) -->
+                <div class="page-back">
+                    <h1 class="title">Contact Me!</h1>
+
+                    <div class="contact-box">
+                        <form action="#" >
+                            <input type="text" class="field" placeholder="Full Name" required>
+                            <input type="email" class="field" placeholder="Email Address" required>
+                            <textarea name="" id="" cols="30" rows="10" class="field" placeholder="Your Message" required></textarea>
+                            <input type="Submit" class="btn" value="Send Message">
+                        </form>
+                    </div>
+
+                    <span class="number-page">6</span>
+
+                    <!-- prev button  -->
+                     <span class="nextprev-btn back" data-page="turn-3">
+                        <ion-icon name="chevron-back-outline"></ion-icon>
+                     </span>
+
+                     <a href="#" class="back-profile">
+                        <p>Profile</p>
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                     </a>
+                </div>
+             </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
